@@ -3,9 +3,9 @@ import path from 'path';
 import dotenv from 'dotenv';
 
 const template = `---
-title: 'Hello, World!'
+title: 'My blogs!'
 publishedAt: '2023-01-01'
-summary: 'This is your first blog post.'
+summary: 'https://www.blogger.com/blog/posts/608058540201884098?bpli=1&pli=1.'
 ---
 
 Hello, World!`;
