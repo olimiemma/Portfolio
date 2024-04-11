@@ -15,7 +15,7 @@ const homePage = `export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my portfolio</h1>
       <p className="prose prose-neutral dark:prose-invert">
-        This is your new portfolio.
+       I am a seasoned web developer with more than 11 years of experience in front-end development and 5 years in back-end development.
       </p>
     </section>
   );
@@ -27,7 +27,7 @@ const workPage = `export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
       <p className="prose prose-neutral dark:prose-invert">
-        This is where your work experience goes.
+        Work experience "https://preview.webflow.com/preview/olimi-emmnuel?utm_medium=preview_link&utm_source=designer&utm_content=olimi-emmnuel&preview=b9ff829164a66d2af3970903abee2086&workflow=preview"
       </p>
     </section>
   );
