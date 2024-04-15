@@ -90,7 +90,7 @@ function ChannelLink({ img, link, name }) {
 async function Subs({ name }: { name: string }) {
   noStore();
   let subscribers;
-  if (name === '@leerob') {
+  if (name === '@olimi') {
     subscribers = await getLeeYouTubeSubs();
   } else {
     subscribers = await getVercelYouTubeSubs();
@@ -136,7 +136,7 @@ export default function Page() {
     <section>
       <PreloadResources />
       <h1 className="mb-8 text-2xl font-medium tracking-tighter">
-        hey, I'm leerob 👋
+        hey, I'm Olimi emma👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`I'm a frontend developer, optimist, and community builder. I currently `}
@@ -246,7 +246,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I create educational content for developers, teaching them about web
+          I create educational content for engineers, teaching them about web
           development, JavaScript and TypeScript, React and Next.js, and more.
           This comes in all forms: blog posts, videos, tweets, conference talks,
           and workshops. You can watch some of my favorites below.
@@ -255,8 +255,8 @@ export default function Page() {
       <div className="my-8 flex w-full flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
         <ChannelLink
           img={avatar}
-          name="@leerob"
-          link="https://www.youtube.com/@leerob"
+          name="@olimi"
+          link="https://www.youtube.com/@olimi"
         />
         <ChannelLink
           img={vercel}
@@ -348,7 +348,7 @@ export default function Page() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://leerob.substack.com"
+            href="https://olimi.substack.com"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">get email updates</p>
