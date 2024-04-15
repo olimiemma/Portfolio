@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Work',
-  description: 'A summary of my work and contributions.',
+  description: <a href="https://preview.webflow.com/preview/olimi-emmnuel?utm_medium=preview_link&utm_source=designer&utm_content=olimi-emmnuel&preview=b9ff829164a66d2af3970903abee2086&workflow=preview">A summary of my work and contributions</a>
+'.',
 };
 
 async function Stars() {
@@ -19,46 +20,41 @@ export default function WorkPage() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          On a mission to build products{' '}
-          <Link href="/blog/developer-experience">love</Link>, and along the
-          way, teach the next generation of engineers. Here's a summary of my
+          On a mission to solve problems by building solutions and bridges{' '}
+          <Link href="/blog/developer-experience">love</Link>, 	I've spent the last decade studying psychology, human behavioural sciences and philosophy, with a keen interest in the nature of intelligence and what it means. Now, I've turned my attention to the field of artificial intelligence, fascinated by the ways in which machines can exhibit forms of intelligence that are distinct from human cognition. With my background in these disciplines, I bring a unique perspective to the study of AI and its implications for our understanding of intelligence.". Here's a summary of my
           work so far.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Vercel</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          VP of Product
+         MD
         </p>
         <p>
           I joined <a href="https://vercel.com/home">Vercel</a> early to grow{' '}
-          <a href="https://nextjs.org">Next.js</a> and our developer community.
-          I built our Developer Relations team to teach our community about our
-          products.
+          <a href="https://nextjs.org">Next.js</a> In 2012, during my second year at university, I co-founded and Incorporated Wazi Group Limited, a technology branding firm serving the Tech, Brand, and Supplies industry. Over 12 years later, we've proudly served over 95 NGO clients, along with countless private and government entities.
+
         </p>
         <ul>
           <li>
-            In 2021, I was promoted to Director of wazi group. We{' '}
-            <a href="https://twitter.com/kelseyhightower/status/1105985400110112768">
+            In 2017, I was promoted to Director of Wazi Group. We{' '}
+            <a href="https://linktr.ee/olimiemma">
               translated customer pain
             </a>{' '}
-            back into the product roadmap. We spoke at{' '}
-            <Link href="/blog/nextjs-conf-2022-recap">conferences</Link>, wrote
-            blog posts, and created videos. We built open-source examples and
-            contributed back to the product.
+            back into Real world solutions. We helped several clients{' '}
+            <Link href="https://photos.google.com/share/AF1QipPDC2s3dU052zLI4jhrXByv9YyXPPASrEzDG1Em_mzVRY8TTrwbxdRUNAIJtWbRuw?key=cXFHbzZ2NE9acUxtcWNzQk9PQ0QzLVhBUnNIVzRn&pli=1">achieve their Goals</Link>, I 
+          wrote  blog posts, and created videos.
           </li>
           <li>
-            In 2022, I was promoted to VP of Developer Experience, now also
-            leading our product documentation team. My team created a{' '}
-            <a href="https://nextjs.org/learn">new free course</a> to teach
-            Next.js, which had 17 million page views that year.{' '}
-            <a href="https://twitter.com/leeerob/status/1608900031859527682">
-              I shipped.
+            In 2024, I moved to Canada to start a new life a{' '}
+            <a href="https://www.youtube.com/@olimiemma">and further my life journey</a> .{' '}
+            <a href="https://www.youtube.com/watch?v=jiAi2e3oil4&list=PLUl4u3cNGP63YwKIMA9K08FFvdeBEl6Lo">
+              I worked on Projects with Massachusetts Institute of Technology
             </a>{' '}
-            I partnered with our open-source community, collaborating with
-            frameworks like{' '}
-            <a href="https://vercel.com/docs/frameworks/nuxt">Nuxt</a> and{' '}
-            <a href="https://astro.build/blog/vercel-official-hosting-partner/">
-              Astro
+            I partnered with many people, collaborating with
+            across the world{' '}
+            <a href="https://www.youtube.com/watch?v=jiAi2e3oil4&list=PLUl4u3cNGP63YwKIMA9K08FFvdeBEl6Lo">Nuxt</a> and{' '}
+            <a href="https://www.youtube.com/watch?v=jiAi2e3oil4&list=PLUl4u3cNGP63YwKIMA9K08FFvdeBEl6Lo">
+            OCW PODCAST
             </a>{' '}
             and sponsoring individuals and projects.
           </li>
@@ -68,48 +64,44 @@ export default function WorkPage() {
           </li>
         </ul>
         <p>
-          Since I joined Vercel in 2020, Next.js active developers have grown
-          1000%, now at ~900k. Next.js is now a top 10 software project on
-          GitHub with <Stars />. It's used by Walmart, ChatGPT, Starbucks, Okta,
-          Datastax, Notion, and <a href="https://nextjs.org/showcase">more</a>.
+          Since I started working  in 2013, Computational thinking adn problem solving has grown
+          me and my life and journey. <Stars />. Grateful <a href="https://news.mit.edu/2024/how-online-mit-courses-can-transform-future-world-0312">more</a>.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Hy-Vee</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Senior Software Engineer, 2018 — 2020
+          Software Engineer, 2010 — date
         </p>
         <p>
-          Hy-Vee, an almost 100-year-old grocery chain in the United States,
-          wanted to build a new version of their digital storefront. I joined a
-          team of <Link href="/blog/product-engineers">product engineers</Link>{' '}
+         From my firt internship at The Ministry of Defense and Veterans Affairs - Headquarters , Kampala-Uganda – May 2012-
+when I was Monitoring and general maintenance of on premise networks and data warehouses, hardware and
+software <Link href="/blog/product-engineers">product engineers</Link>{' '}
           working across web and mobile to rebuild their legacy .NET application
           (~500k MAU) with React and React Native.
         </p>
         <p>
-          On the frontend, I led our move from a custom webpack and React
-          configuration to Next.js and the latest React patterns. In the
-          process, I shared my learnings online, helping educate members of the
-          React and Next.js community by creating courses.
+     To the frontend, I led the move from a custom websolutions and backend
+          configuration to running a tech brand firm and the latest Personal interests in the arts. In the
+          process, I shared my learnings online, helping educate  people allover the
+          world and tell their stories
         </p>
         <p>
-          Throughout my two years, I was able to work on some hard problems:
-          decoupling a decade old monolith into microservices, working with a
-          federated GraphQL API, learning and occasionally managing a Kubernetes
-          cluster, building and implementing a design system, incrementally
-          migrating individual components and routes to a new framework and
-          infrastructure, and more.
+          Throughout my 14 plus years, I was able to work on some hard problems:
+          growing, evolving
+          learning and occasionally managing teams of people.
+         I have been building and implementing a design systems and solutions, incrementally
+        growing. my tehc start up reached the decade in business mark in 2022
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Workiva</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer, 2015 — 2018
+          I.T Trainer / Computer Administrator- Friedrich-Ebert-Stiftung 2014-2015
         </p>
         <p>
-          Workiva ($WK) is a cloud platform for data reporting and compliance.
-          During my time at Workiva, I gained my first production experience
-          using React. I worked on tooling to help predict and alert and
-          regressions in our SaaS platform, building a product similar to
-          open-source tools like Sentry.
+          Taught Computer hardware and software, from basic daily use Apps to Databases and IoTs to over
+800 different organizational staff across 20 different projects/training (NGOs, PSFs, and Local Governance
+Bodies), 15 project teams, and over 200 individual freelance students.
+Provided technical support, resolving issues for clients and within my workplace
         </p>
       </div>
     </section>
