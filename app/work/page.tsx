@@ -19,9 +19,9 @@ export default function WorkPage() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          On a mission to build products developers{' '}
+          On a mission to build products{' '}
           <Link href="/blog/developer-experience">love</Link>, and along the
-          way, teach the next generation of developers. Here's a summary of my
+          way, teach the next generation of engineers. Here's a summary of my
           work so far.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
@@ -37,7 +37,7 @@ export default function WorkPage() {
         </p>
         <ul>
           <li>
-            In 2021, I was promoted to Director of DevRel. We{' '}
+            In 2021, I was promoted to Director of wazi group. We{' '}
             <a href="https://twitter.com/kelseyhightower/status/1105985400110112768">
               translated customer pain
             </a>{' '}
