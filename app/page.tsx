@@ -246,9 +246,9 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I create educational content for engineers, teaching them about web
-          development, JavaScript and TypeScript, React and Next.js, and more.
-          This comes in all forms: blog posts, videos, tweets, conference talks,
+          An multi multifaceted individual with over 10 years of experience in engineering,  web
+          development, design and music, and more.
+          This comes in all forms: Companies founded, videos, blog posts, mixtapes, tweets, conference talks,
           and workshops. You can watch some of my favorites below.
         </p>
       </div>
@@ -256,20 +256,19 @@ export default function Page() {
         <ChannelLink
           img={avatar}
           name="@olimi"
-          link="https://www.youtube.com/@olimi"
+          link="https://www.youtube.com/@olimiemma"
         />
         <ChannelLink
           img={vercel}
           name="@vercel"
-          link="https://www.youtube.com/@vercelhq"
+          link="https://www.youtube.com/@olimiemma"
         />
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Over the past decade, I've written content on my blog and newsletter.
-          I try to keep things simple. You'll find writing about technologies
-          I'm interested in at the time, or how I'm learning and growing in my
-          career, sharing knowledge along the way.
+          Over the past decade, I've written founded and ran my own company.
+           Now branching out into AI technologies
+          I'm interested in Intelligence both artificial and ours, or how we work as humans and why us.
         </p>
       </div>
       <div className="my-8 flex w-full flex-col space-y-4">
@@ -282,8 +281,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I invest small angel checks into early stage startups building tools
-          for developers.
+          I have over 12 years of software engineering, and over 17 years of brand & design experience and 16 of years of entreprenuership.
         </p>
       </div>
       <div className="my-8 flex h-14 w-full flex-row space-x-2 overflow-x-auto">
@@ -326,9 +324,9 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           I've worked with and advised companies on{' '}
-          <Link href="/blog/developer-marketing">developer marketing</Link>,{' '}
+          <Link href="/blog/developer-marketing">brand strategy</Link>,{' '}
           <Link href="/blog/devrel">developer relations</Link>, building
-          open-source communities, product-led growth, and more.
+          Software solutions, product-led growth, and more.
         </p>
       </div>
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
