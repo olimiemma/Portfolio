@@ -91,7 +91,7 @@ async function Subs({ name }: { name: string }) {
   noStore();
   let subscribers;
   if (name === '@olimi') {
-    subscribers = await getLeeYouTubeSubs();
+    subscribers = await getolimiYouTubeSubs();
   } else {
     subscribers = await getVercelYouTubeSubs();
   }
@@ -337,7 +337,7 @@ export default function Page() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/olimiemma"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">follow me</p>
