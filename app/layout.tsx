@@ -8,7 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://https://github.com/olimiemma'),
   title: {
     default: 'Olimi emma',
     template: '%s | Olimi emma',
